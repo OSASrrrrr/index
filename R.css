@@ -1,0 +1,548 @@
+*{
+margin: 20px;
+}
+#MY {
+  margin: 0;
+  padding: 0;
+  left: 100%;
+}
+
+#MY .imageBox {
+  width: 360px;
+  height: 343px;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+#MY .imageBox img {
+  width: 100%;
+  height: 100%;
+  transition: .5s;
+  
+}
+
+#MY .imageBox .textBox {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #7986cb;
+  box-sizing: border-box;
+  padding: 10px;
+  transition: .5s;
+  border: none;
+}
+
+#MY .imageBox .textBox p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#MY .imageBox:hover .textBox {
+  bottom: -60%;
+}
+
+#MY .imageBox:hover .img {
+  transform: translateY(-40%);
+}
+#MY {
+  background-color: #2b2b2b;
+  margin: 0;
+  padding: 0;
+}
+#MY .loader {
+  position: absolute;
+  top:0%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+#MY .loader span {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  color: rgba(255, 255, 255, .1);
+  display: inline-block;
+  transition: all .5s;
+  animation: animate_MY 2s infinite;
+  -webkit-animation: animate_MY 2s infinite;
+}
+#MY .loader span:nth-child(1) {
+  animation-delay: .1s;
+}
+#MY .loader span:nth-child(2) {
+  animation-delay: .2s;
+}
+#MY .loader span:nth-child(3) {
+  animation-delay: .3s;
+}
+#MY .loader span:nth-child(4) {
+  animation-delay: .4s;
+}
+
+#MY .loader span:nth-child(5) {
+  animation-delay: .5s;
+}
+
+#MY .loader span:nth-child(6) {
+  animation-delay: .6s;
+}
+
+#MY .loader span:nth-child(7) {
+  animation-delay: .7s;
+}
+
+@keyframes animate_MY {
+  0% {
+      color: rgba(255, 255, 255, .1);
+      transform: translateY(0);
+      margin-left: 0;
+  }
+
+  25% {
+      color: rgb(0, 0, 0);
+      yellowtransform: translateY(-15px);
+      margin-left: 10px;
+      text-shadow: 0 15px 5px rgba(0, 0, 0, 1);
+  }
+
+  100% {
+      color: rgba(255, 255, 255, .1);
+      transform: translateY(0);
+  }
+}
+
+
+.UPUP{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  background-color: rgb(240, 221, 114);
+  transition: 0.2s;
+  z-index: 100;
+}
+.photo1{
+  width: 350px;
+  height: 250px;
+}
+.background{
+  margin: 0%;
+  background-image: url('images/white.jpeg');
+  font-family:Snell Roundhand, cursive;
+}
+.allll{
+  position: sticky;
+  top: 50px;
+  margin-left: 100px;
+}
+.chunk{
+  float: left;
+}
+.chunk2{
+  width: 300px;
+  height: 90%;
+  background-color: #90e5ff;
+}
+.chunk3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.beauty{
+  width: 250px;
+  height: 200px;
+  transition: all 0.6s;
+  margin: 10px;
+}
+.beauty:hover{
+  transform: scale(1.1);
+}
+.name{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20pt;
+  color:#000000 ;
+}
+.infor{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 12pt;
+  color:#000000 ;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  margin: 0px;
+  transition: 2s ease-in-out;
+}
+.icon:hover{
+  transform: rotate(720deg);
+}
+.iconre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.iconsq{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.npng{
+  font-size: 22px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sq{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sq1{
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: #a16a51 groove 3px;
+  background-color:#e4dbd1 ;
+  padding: 5px;
+  color: #7a503d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sq1:hover{
+  opacity: 0.5;
+  background-color: #BB3D00;
+  color: #000000;
+}
+.wordt{
+  font-size: 15pt;
+}
+.wordt:hover{
+    text-decoration: underline;
+}
+.life{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.life2:hover{
+  border-radius: 10px;
+  background-color: #B4C5D9;
+  text-align:center;
+  
+}
+.another{
+  display: inline-block;
+  width: 550px;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+.long{
+  margin-bottom: 50px;
+}
+.tt{
+  color: #000000;
+  font-size: 12pt;
+}
+.big {
+padding: 10px;
+}
+@keyframes bar1 {
+  from {
+      border-left-width: 0px
+  }
+  to {
+      border-left-width: 200px
+  }
+}
+@keyframes bar2 {
+  from {
+      border-left-width: 0px
+  }
+  to {
+      border-left-width: 250px
+  }
+}
+@keyframes bar3 {
+  from {
+      border-left-width: 0px
+  }
+  to {
+      border-left-width: 288px
+  }
+}
+@keyframes bar4 {
+  from {
+      border-left-width: 0px
+  }
+  to {
+      border-left-width: 400px
+  }
+}
+.C{
+  animation: bar1 2s ease;
+  border-left-width: 200px;
+  border-left-color: #ecc3c8;
+  border-left-style: solid;
+  background-color:#bdc2bb75;
+  border-radius: 20px;
+}
+.Java {
+  animation: bar2 2s ease-out;
+  border-left-width: 250px;
+  border-left-color:#ecc3c8;
+  border-left-style: solid;
+  background-color:#bdc2bb75;
+  border-radius: 20px;
+}
+.Html {
+  animation: bar3 2s ease-in;
+  border-left-width: 288px; 
+  border-left-color:#ecc3c8;
+  border-left-style: solid;
+  background-color:#bdc2bb75;
+  border-radius: 20px;
+}
+.Css {
+  animation: bar4 2s ease-in;
+  border-left-width: 400px; 
+  border-left-color:#ecc3c8;
+  border-left-style: solid;
+  background-color:#bdc2bb75;
+  border-radius: 20px;
+}
+/*專業技能*/
+.skill{
+  margin-top: 70px;
+}
+.cc{
+  margin: 0;
+  padding: 0;
+}
+.ciele666{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 560px;
+  margin-top: 20px;
+}
+.card:hover .percent .number h3{
+  color:rgb(255, 0, 0);
+  font-size: 60px;
+}
+.card:hover .percent .number h3 span{
+  color:rgb(255, 0, 0);
+  transition: 0.5s;
+}
+/*文字顏色(碰)*/
+.card:hover .text{
+  color:rgb(0, 0, 0) ;
+}
+.percent{
+  position: relative;
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  z-index: 1000;
+}
+.percent .number{
+  position: absolute;
+  top:-6px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.percent .number h3{
+  color:rgb(238, 120, 120);
+  font-weight: 700;
+  font-size: 40px;
+  transition: 0.5s;
+}
+/*碰圖(數字)*/
+/*文字顏色*/
+.t1{
+  position: relative;
+  color: rgb(0, 0, 0);
+  margin-top: 15px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*圓*/
+svg circle{
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #fae6da;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px,5px);
+}
+svg circle:nth-child(2){
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+.card:nth-child(1) svg circle:nth-child(2){
+  stroke-dashoffset:calc( 440 - ( 440 * 68 ) / 100 );
+  stroke:#ffc291;
+}
+.card:nth-child(2) svg circle:nth-child(2){
+  stroke-dashoffset:calc( 440 - ( 440 * 75 ) / 100 );
+  stroke:#ffc291;
+}
+.card:nth-child(3) svg circle:nth-child(2){
+  stroke-dashoffset:calc( 440 - ( 440 * 60 ) / 100 );
+  stroke:#ffc291;
+}
+.shoot{
+  color: #000000;
+  background-color: #B4C5D9;
+  padding: 5px;
+  width: 140px;
+  height: 20px;
+  transition: all 0.4s; margin-right: 15px;
+}
+.shoot:hover{
+  color: rgb(110, 109, 109);
+  background-color:#c2bdb4e3;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-right: 15px;
+  transform: scale(1.1);
+}
+/*翻翻特效*/
+.flip-card {
+  position: relative;
+  background-color: transparent;
+  width: 450px;
+  height: 300px;
+  perspective: 1000px;
+  left: -26px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back{
+  position: absolute;
+  width: 450px;
+  height:300px;
+  backface-visibility: hidden;
+  float: right;
+}
+.flip-card-back {
+  background-color: #ff874f;
+  transform: rotateY(180deg);
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.clubpedit{
+  width:450px; 
+  height: 300px;
+  border-radius: 15px;
+}
+.title666{
+ font-size: 50px;
+ text-decoration: underline;
+}
+.word{
+  font-size: 18px;
+}
+.icake{
+  width: 300px;
+  height: 200px;
+}
+.right{
+ text-align: center;
+}
+
+.title{
+  text-align: center;
+}
+.faq-heading{
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.hr-line{
+width: 60%;
+margin: auto;
+
+}
+.faq-page {
+  color: #444;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+.faq-body{
+  margin: 10px;
+ float: left;
+ width: 75%; 
+ padding: auto;
+}
+.active,
+.faq-page:hover {
+  background-color: #fffce1;
+  /*按鈕*/
+}
+
+.faq-body {
+  padding: 0 180px;
+  background-color: #fffce1;
+  display: none;
+  overflow: hidden;
+  /*遮(內容)*/
+}
+.faq-page:after {
+  content: '\02795';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+  /*加號*/
+}
+.active:after {
+  content: "\2796";
+  /*減號*/
+}
